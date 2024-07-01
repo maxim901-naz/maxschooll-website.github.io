@@ -3,12 +3,12 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background: url('background.jpg') no-repeat center center fixed; /* Фоновое изображение */
-    background-size: cover; /* Масштабирование фонового изображения */
+    background-color: #001f3f; /* Синий фон */
+    color: #fff; /* Белый цвет текста */
 }
 
 header {
-    background: rgba(51, 51, 51, 0.8); /* Полупрозрачный фон для хедера */
+    background: #0074D9; /* Более светлый синий для хедера */
     color: #fff;
     padding: 1em 0;
     text-align: center;
@@ -32,17 +32,20 @@ nav ul li a {
 section {
     padding: 2em 0;
     border-bottom: 1px solid #ccc;
-    background-color: rgba(255, 255, 255, 0.8); /* Полупрозрачный белый фон для секций */
+    background-color: #001f3f; /* Синий фон для секций */
+    color: #fff; /* Белый цвет текста для секций */
 }
 
 h2 {
-    color: #333;
+    color: #FFDC00; /* Желтый цвет для заголовков */
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
     margin: 2em 0;
+    background-color: #0074D9; /* Более светлый синий для таблицы */
+    color: #fff; /* Белый цвет текста в таблице */
 }
 
 table, th, td {
@@ -55,14 +58,14 @@ th, td {
 }
 
 blockquote {
-    border-left: 5px solid #ccc;
+    border-left: 5px solid #FFDC00; /* Желтая граница для блоков цитат */
     margin: 1em 0;
     padding-left: 1em;
     font-style: italic;
 }
 
 footer {
-    background: rgba(51, 51, 51, 0.8); /* Полупрозрачный фон для футера */
+    background: #0074D9; /* Более светлый синий для футера */
     color: #fff;
     text-align: center;
     padding: 1em 0;
