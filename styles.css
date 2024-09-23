@@ -3,14 +3,14 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background-color: #001f3f; /* Синий фон */
-    color: #fff; /* Белый цвет текста */
+    background-color: #1A1A40; /* Основной темный фон (ближе к темно-фиолетовому) */
+    color: #C7B6FF; /* Светло-фиолетовый текст */
 }
 
 header {
-    background: #0074D9; /* Более светлый синий для хедера */
-    color: #fff;
-    padding: 1em 0;
+    background: #655D8A; /* Темно-фиолетовый для хедера */
+    color: #C7B6FF; /* Цвет текста ближе к светло-фиолетовому */
+    padding: 1.5em 0;
     text-align: center;
 }
 
@@ -21,35 +21,42 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin-right: 10px;
+    margin-right: 15px;
 }
 
 nav ul li a {
-    color: #fff;
+    color: #C7B6FF; /* Цвет ссылок ближе к светло-фиолетовому */
     text-decoration: none;
+    transition: color 0.3s ease; /* Эффект плавного изменения цвета при наведении */
+}
+
+nav ul li a:hover {
+    color: #FFDC00; /* Желтый при наведении */
 }
 
 section {
     padding: 2em 0;
-    border-bottom: 1px solid #ccc;
-    background-color: #001f3f; /* Синий фон для секций */
-    color: #fff; /* Белый цвет текста для секций */
+    border-bottom: 1px solid #494C7D; /* Цвет границы для секций (темный) */
+    background-color: #1A1A40; /* Темно-фиолетовый для секций */
+    color: #C7B6FF; /* Светло-фиолетовый цвет текста */
 }
 
 h2 {
     color: #FFDC00; /* Желтый цвет для заголовков */
+    font-weight: bold;
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
     margin: 2em 0;
-    background-color: #0074D9; /* Более светлый синий для таблицы */
-    color: #fff; /* Белый цвет текста в таблице */
+    background-color: #494C7D; /* Темно-серый для таблицы */
+    color: #C7B6FF; /* Светло-фиолетовый цвет текста */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Добавляем тень для объема */
 }
 
 table, th, td {
-    border: 1px solid #ccc;
+    border: 1px solid #C7B6FF;
 }
 
 th, td {
@@ -62,11 +69,34 @@ blockquote {
     margin: 1em 0;
     padding-left: 1em;
     font-style: italic;
+    background-color: #2C2C54; /* Более темный фон для цитат */
+    color: #C7B6FF;
 }
 
 footer {
-    background: #0074D9; /* Более светлый синий для футера */
-    color: #fff;
+    background: #494C7D; /* Темный для футера */
+    color: #C7B6FF;
     text-align: center;
-    padding: 1em 0;
+    padding: 1.5em 0;
+}
+
+button {
+    background-color: #FFDC00; /* Яркий желтый для кнопок */
+    color: #1A1A40; /* Темно-фиолетовый текст кнопки */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #C7B6FF; /* Светло-фиолетовый при наведении */
+    color: #1A1A40;
+}
+
+.logo {
+    width: 150px;
+    display: block;
+    margin: 0 auto 20px;
 }
